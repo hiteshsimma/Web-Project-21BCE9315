@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>Best Foods</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body{
+    /* background-color: orangered; */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.menu {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items:flex-end;
+                float: right;
+                /* margin-left: 200px; */
+            }
+
+            .menu li {
+                margin-left: 20px;
+            }
+
+            .menu a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+            }
+            .cont{
+                max-width: 1000px;
+                /* background-color: #333; */
+                padding: 20px;
+                margin: 0 auto;
+                margin-left: 0px;
+                /* margin-bottom: 20px; */
+            }
+            .navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: #FF5733;
+                padding: 10px 0;
+                z-index: 1000;
+                margin-bottom: 100px;
+                /* To ensure the navbar stays on top of other elements */
+            }
+            .title{
+                list-style: none;
+                font-size: 20px;
+                color: white;
+                float: left;
+            }
+            .w3-center{
+              margin-top: 100px;
+            }
+</style>
+<body>
+  <nav class="navbar">
+    <div class="cont">
+        <div class="brand">
+            <li class="title"><img src="sasupalogo.png" alt="sasupa" height="50px" width="220px"></li>
+        </div>
+        <ul class="menu">
+            <li><a href="loginpage.php">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="foods.html">Best Foods</a></li>
+            <li><a href="revshower.php">Reviews</a></li>
+        </ul>
+    </div>
+  </nav>
+
+<h2 class="w3-center">Best foods to try...</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="biryani.avif" style="width:100%">
+  <img class="mySlides" src="tandoori.avif" style="width:100%">
+  <img class="mySlides" src="grills.avif" style="width:100%">
+  <img class="mySlides" src="salad.avif" style="width:100%">
+  <img class="mySlides" src="meals.avif" style="width:100%">
+  <img class="mySlides" src="combo.avif" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

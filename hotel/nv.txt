@@ -1,0 +1,9 @@
+<div class="nv1"><a href="nv1.php" target="_blank"><img src="./Non-veg/1.png" alt="1"></a><h6>SASUPA</h6></div>
+<div class="nv2"><a href="nv2.php" target="_blank"><img src="./Non-veg/2.png" alt="1"></a><h6>SASUPA</h6></div>
+<div class="nv3"><a href="nv3.php" target="_blank"><img src="./Non-veg/3.png" alt="1"></a><h6>SASUPA</h6></div>
+<div class="nv4"><img src="./Non-veg/4.png" alt="4"><h6>SASUPA</h6></div>
+<div class="nv5"><img src="./Non-veg/5.png" alt="5"><h6>SASUPA</h6></div>
+<div class="nv6"><img src="./Non-veg/6.png" alt="6"><h6>SASUPA</h6></div>
+<div class="nv7"><img src="./Non-veg/7.png" alt="7"><h6>SASUPA</h6></div>
+<div class="nv8"><img src="./Non-veg/8.png" alt="8"><h6>SASUPA</h6></div>
+<div class="nv9"><img src="./Non-veg/9.png" alt="9"><h6>SASUPA</h6></div>

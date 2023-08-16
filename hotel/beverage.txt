@@ -1,0 +1,14 @@
+<div class="b1"><a href="b1.php" target="_blank"><img src="./Beverages/1.png" alt="1"></a><h6>SASUPA</h6></div>
+<div class="b2"><a href="b2.php" target="_blank"><img src="./Beverages/2.png" alt="2"></a><h6>SASUPA</h6></div>
+<div class="b3"><a href="b3.php" target="_blank"><img src="./Beverages/3.png" alt="3"></a><h6>SASUPA</h6></div>
+<div class="b4"><img src="./Beverages/4.png" alt="4"><h6>SASUPA</h6></div>
+<div class="b5"><img src="./Beverages/5.png" alt="5"><h6>SASUPA</h6></div>
+<div class="b6"><img src="./Beverages/6.png" alt="6"><h6>SASUPA</h6></div>
+<div class="b7"><img src="./Beverages/7.png" alt="7"><h6>SASUPA</h6></div>
+<div class="b8"><img src="./Beverages/8.png" alt="8"><h6>SASUPA</h6></div>
+<div class="b9"><img src="./Beverages/9.png" alt="9"><h6>SASUPA</h6></div>
+<div class="b10"><img src="./Beverages/10.png" alt="10"><h6>SASUPA</h6></div>
+<div class="b11"><img src="./Beverages/11.png" alt="11"><h6>SASUPA</h6></div>
+<div class="b12"><img src="./Beverages/12.png" alt="12"><h6>SASUPA</h6></div>
+<div class="b13"><img src="./Beverages/13.png" alt="13"><h6>SASUPA</h6></div>
+<div class="b14"><img src="./Beverages/14.png" alt="14"><h6>SASUPA</h6></div>
